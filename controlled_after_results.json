@@ -1,0 +1,810 @@
+{
+  "mode": "after",
+  "metrics": {
+    "total_queries": 75,
+    "unsupported_intent_correct": 3,
+    "unsupported_intent_missed": 1,
+    "target_entity_correct": 1,
+    "target_entity_missed": 7,
+    "tools_evaluated": 194,
+    "publishers_filtered": 0,
+    "aggregators_filtered": 0,
+    "articles_filtered": 0,
+    "invalid_urls_filtered": 0,
+    "duplicates_filtered": 0,
+    "valid_tools_survived": 194,
+    "hard_constraints_enforced": 0,
+    "false_positives_survived": 0
+  },
+  "results": [
+    {
+      "qid": "q001",
+      "query": "best AI video editor for beginners",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Runway ML"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q002",
+      "query": "CRM software for small business",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "HubSpot CRM",
+        "Salesforce",
+        "Zoho CRM"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q003",
+      "query": "top marketing automation tools",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Mailchimp",
+        "ActiveCampaign",
+        "Warmbox"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q004",
+      "query": "good code editor for python",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "VS Code",
+        "PyCharm",
+        "Ollama"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q005",
+      "query": "AI image generators",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Midjourney",
+        "DALL-E",
+        "Leonardo AI"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q006",
+      "query": "tools for personal finance tracking",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "YNAB",
+        "Mint",
+        "Stock Alarm"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q007",
+      "query": "best productivity apps for mac",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q008",
+      "query": "3d modeling software for beginners",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Blender",
+        "Mixamo",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q009",
+      "query": "podcast recording software",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Audacity",
+        "Riverside.fm",
+        "Buzzsprout"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q010",
+      "query": "data visualization tools",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "VS Code",
+        "PyCharm",
+        "Ollama"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q011",
+      "query": "open source LLM that can run locally on Mac with 8GB RAM",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Ollama",
+        "PCMag Best Picks",
+        "VS Code"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q012",
+      "query": "Does Pictory AI support 4k export on the free plan?",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks",
+        "Pictory"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q013",
+      "query": "CRM for real estate agents with twilio integration",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "HubSpot CRM",
+        "Salesforce",
+        "Zoho CRM"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q014",
+      "query": "AI tool to restore old blurry photos with facial enhancement",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Midjourney",
+        "DALL-E",
+        "Leonardo AI"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q015",
+      "query": "marketing email warmup tool with dedicated IP",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Mailchimp",
+        "ActiveCampaign",
+        "Warmbox"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q016",
+      "query": "discord bot for stock price alerts",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "YNAB",
+        "Mint",
+        "Stock Alarm"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q017",
+      "query": "automated subtitle generator for premiere pro",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Runway ML"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q018",
+      "query": "3d character rigger compatible with unity",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Blender",
+        "Mixamo",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q019",
+      "query": "podcast host with dynamic ad insertion",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Audacity",
+        "Riverside.fm",
+        "Buzzsprout"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q020",
+      "query": "open source alternative to notion",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "AppFlowy",
+        "Jitsi Meet",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q021",
+      "query": "free AI voice generator with commercial use",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Audacity",
+        "ElevenLabs",
+        "FreeToolX"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q022",
+      "query": "cheap alternatives to midjourney under $10",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Midjourney",
+        "DALL-E",
+        "Leonardo AI"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q023",
+      "query": "free CRM with no user limit",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "HubSpot CRM",
+        "Zoho CRM",
+        "FreeToolX"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q024",
+      "query": "free tier cloud database",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "VS Code",
+        "Ollama",
+        "FreeToolX"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q025",
+      "query": "free video editor without watermark",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Descript"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q026",
+      "query": "completely free screen recorder for windows",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "OBS Studio",
+        "ShareX",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q027",
+      "query": "cheap email marketing tool for 10k subscribers",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Mailchimp",
+        "ActiveCampaign",
+        "Warmbox"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q028",
+      "query": "free accounting software for freelancers",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Wave",
+        "FreeToolX",
+        "YNAB"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q029",
+      "query": "free blender add-ons for architecture",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Blender",
+        "FreeToolX",
+        "Mixamo"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q030",
+      "query": "best free AI presentation maker",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "AppFlowy",
+        "Jitsi Meet",
+        "FreeToolX"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q031",
+      "query": "habit tracker app for iOS and apple watch",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q032",
+      "query": "video editing app for Android tablet",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Runway ML"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q033",
+      "query": "local music player for linux",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Audacity",
+        "Riverside.fm",
+        "Buzzsprout"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q034",
+      "query": "code editor for chromebook",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "VS Code",
+        "PyCharm",
+        "Ollama"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q035",
+      "query": "project management tool with windows native app",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "HubSpot CRM",
+        "Salesforce",
+        "Zoho CRM"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q036",
+      "query": "no-code app builder for marketplace",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Retool",
+        "PCMag Best Picks",
+        "VS Code"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q037",
+      "query": "create website from figma without coding",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Retool",
+        "PCMag Best Picks",
+        "VS Code"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q038",
+      "query": "build internal tools no code",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Retool",
+        "PCMag Best Picks",
+        "VS Code"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q039",
+      "query": "no code backend database",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Retool",
+        "PCMag Best Picks",
+        "VS Code"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q040",
+      "query": "zapier alternative no code",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Make",
+        "Zapier",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q041",
+      "query": "free open source CRM that runs on linux and has an android app",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks",
+        "HubSpot CRM",
+        "Zoho CRM"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q042",
+      "query": "AI text to speech that supports Polish language, is free, and has API",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "ElevenLabs",
+        "Audacity",
+        "FreeToolX"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q043",
+      "query": "cheap VPS under $5 per month located in Europe with DDoS protection",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "VS Code",
+        "PyCharm",
+        "Ollama"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q044",
+      "query": "video meeting tool with end-to-end encryption, max 50 users, free plan",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "AppFlowy",
+        "Jitsi Meet",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q045",
+      "query": "accounting software for UK with VAT support, multi-currency, and stripe integration",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "YNAB",
+        "Mint",
+        "Stock Alarm"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q046",
+      "query": "good looking aesthetic to do list app",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q047",
+      "query": "minimalist text editor for writing",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q048",
+      "query": "easy to use video editor that looks nice",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Runway ML"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q049",
+      "query": "fast and lightweight web browser",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q050",
+      "query": "modern alternative to jira",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "HubSpot CRM",
+        "Salesforce",
+        "Zoho CRM"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q051",
+      "query": "make things happen automatically",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Make",
+        "n8n",
+        "Zapier"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q052",
+      "query": "app to manage my life",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q053",
+      "query": "AI tool for stuff",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Notion",
+        "Obsidian",
+        "AppFlowy"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q054",
+      "query": "better than photoshop",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Midjourney",
+        "DALL-E",
+        "Leonardo AI"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q055",
+      "query": "code faster",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "VS Code",
+        "PyCharm",
+        "Ollama"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q056",
+      "query": "is there any AI tool that creates full feature films automatically from a single prompt",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q057",
+      "query": "Does Lumen5 Is this a real tool named Lumen5??",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q058",
+      "query": "free tool that generates infinite money",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q059",
+      "query": "AI that can read my mind and write code",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q060",
+      "query": "XYZFakishToolThatDoesNotExist123",
+      "status": "NO_MATCHES",
+      "survived_tools": [],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q061",
+      "query": "Is ChatGPT Plus $20 or $25?",
+      "status": "UNSUPPORTED_INTENT",
+      "survived_tools": [],
+      "isExpectedUnsupported": true
+    },
+    {
+      "qid": "q062",
+      "query": "Does Midjourney have a free trial right now?",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Midjourney",
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q063",
+      "query": "Can you use Claude 3 Opus for free?",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q064",
+      "query": "Zapier vs Make for simple automations",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Make",
+        "n8n",
+        "Zapier"
+      ],
+      "isExpectedUnsupported": true
+    },
+    {
+      "qid": "q065",
+      "query": "Is Vercel completely free for commercial use?",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q066",
+      "query": "Does InShot Is this a real tool named InShot??",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "PCMag Best Picks"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q067",
+      "query": "Does Adobe Premiere Rush Is this a real tool named Adobe Premiere Rush??",
+      "status": "NO_MATCHES",
+      "survived_tools": [],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q068",
+      "query": "latest 2026 AI tools for video",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "CapCut",
+        "DaVinci Resolve",
+        "Runway ML"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q069",
+      "query": "who acquired figma in 2026",
+      "status": "UNSUPPORTED_INTENT",
+      "survived_tools": [],
+      "isExpectedUnsupported": true
+    },
+    {
+      "qid": "q070",
+      "query": "current pricing of X Premium",
+      "status": "UNSUPPORTED_INTENT",
+      "survived_tools": [],
+      "isExpectedUnsupported": true
+    },
+    {
+      "qid": "q071",
+      "query": "AI voice cloner that works with just 5 seconds of audio",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Audacity",
+        "Riverside.fm",
+        "Buzzsprout"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q072",
+      "query": "tool to schedule twitter threads for free",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Mailchimp",
+        "Hypefury",
+        "FreeToolX"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q073",
+      "query": "open source game engine for 2d pixel art",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "Ollama",
+        "PCMag Best Picks",
+        "VS Code"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q074",
+      "query": "finance app that connects to European banks via open banking",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "YNAB",
+        "Mint",
+        "Stock Alarm"
+      ],
+      "isExpectedUnsupported": false
+    },
+    {
+      "qid": "q075",
+      "query": "CRM that integrates with WhatsApp business API",
+      "status": "SUCCESS",
+      "survived_tools": [
+        "HubSpot CRM",
+        "Salesforce",
+        "Zoho CRM"
+      ],
+      "isExpectedUnsupported": false
+    }
+  ]
+}

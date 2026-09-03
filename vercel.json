@@ -1,0 +1,24 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/dispatch-discovery",
+      "schedule": "*/15 * * * *"
+    },
+    {
+      "path": "/api/cron/dispatch-verification",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/dispatch-reputation",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/dispatch-health",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/dispatch-maintenance",
+      "schedule": "*/30 * * * *"
+    }
+  ]
+}

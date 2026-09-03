@@ -1,0 +1,650 @@
+[
+  {
+    "id": "q001",
+    "query": "best AI video editor for beginners",
+    "category": "video",
+    "expected_constraints": [
+      "beginner"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q002",
+    "query": "CRM software for small business",
+    "category": "business",
+    "expected_constraints": [
+      "small_business"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q003",
+    "query": "top marketing automation tools",
+    "category": "marketing",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q004",
+    "query": "good code editor for python",
+    "category": "developer",
+    "expected_constraints": [
+      "python"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q005",
+    "query": "AI image generators",
+    "category": "image",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q006",
+    "query": "tools for personal finance tracking",
+    "category": "finance",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q007",
+    "query": "best productivity apps for mac",
+    "category": "productivity",
+    "expected_constraints": [
+      "mac"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q008",
+    "query": "3d modeling software for beginners",
+    "category": "3d",
+    "expected_constraints": [
+      "beginner"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q009",
+    "query": "podcast recording software",
+    "category": "audio",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q010",
+    "query": "data visualization tools",
+    "category": "business",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q011",
+    "query": "open source LLM that can run locally on Mac with 8GB RAM",
+    "category": "developer",
+    "expected_constraints": [
+      "open_source",
+      "local",
+      "mac"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q012",
+    "query": "Does Pictory AI support 4k export on the free plan?",
+    "category": "video",
+    "expected_constraints": [
+      "free",
+      "4k"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q013",
+    "query": "CRM for real estate agents with twilio integration",
+    "category": "business",
+    "expected_constraints": [
+      "real_estate",
+      "twilio"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q014",
+    "query": "AI tool to restore old blurry photos with facial enhancement",
+    "category": "image",
+    "expected_constraints": [
+      "restore",
+      "face"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q015",
+    "query": "marketing email warmup tool with dedicated IP",
+    "category": "marketing",
+    "expected_constraints": [
+      "email_warmup",
+      "dedicated_ip"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q016",
+    "query": "discord bot for stock price alerts",
+    "category": "finance",
+    "expected_constraints": [
+      "discord",
+      "stock"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q017",
+    "query": "automated subtitle generator for premiere pro",
+    "category": "video",
+    "expected_constraints": [
+      "premiere_pro",
+      "subtitles"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q018",
+    "query": "3d character rigger compatible with unity",
+    "category": "3d",
+    "expected_constraints": [
+      "rigger",
+      "unity"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q019",
+    "query": "podcast host with dynamic ad insertion",
+    "category": "audio",
+    "expected_constraints": [
+      "dynamic_ads"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q020",
+    "query": "open source alternative to notion",
+    "category": "productivity",
+    "expected_constraints": [
+      "open_source"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q021",
+    "query": "free AI voice generator with commercial use",
+    "category": "audio",
+    "expected_constraints": [
+      "free",
+      "commercial_use"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q022",
+    "query": "cheap alternatives to midjourney under $10",
+    "category": "image",
+    "expected_constraints": [
+      "cheap"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q023",
+    "query": "free CRM with no user limit",
+    "category": "business",
+    "expected_constraints": [
+      "free",
+      "no_user_limit"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q024",
+    "query": "free tier cloud database",
+    "category": "developer",
+    "expected_constraints": [
+      "free"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q025",
+    "query": "free video editor without watermark",
+    "category": "video",
+    "expected_constraints": [
+      "free",
+      "no_watermark"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q026",
+    "query": "completely free screen recorder for windows",
+    "category": "productivity",
+    "expected_constraints": [
+      "free",
+      "windows"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q027",
+    "query": "cheap email marketing tool for 10k subscribers",
+    "category": "marketing",
+    "expected_constraints": [
+      "cheap"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q028",
+    "query": "free accounting software for freelancers",
+    "category": "finance",
+    "expected_constraints": [
+      "free"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q029",
+    "query": "free blender add-ons for architecture",
+    "category": "3d",
+    "expected_constraints": [
+      "free",
+      "blender"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q030",
+    "query": "best free AI presentation maker",
+    "category": "productivity",
+    "expected_constraints": [
+      "free"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q031",
+    "query": "habit tracker app for iOS and apple watch",
+    "category": "productivity",
+    "expected_constraints": [
+      "ios",
+      "apple_watch"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q032",
+    "query": "video editing app for Android tablet",
+    "category": "video",
+    "expected_constraints": [
+      "android",
+      "tablet"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q033",
+    "query": "local music player for linux",
+    "category": "audio",
+    "expected_constraints": [
+      "linux"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q034",
+    "query": "code editor for chromebook",
+    "category": "developer",
+    "expected_constraints": [
+      "chromebook"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q035",
+    "query": "project management tool with windows native app",
+    "category": "business",
+    "expected_constraints": [
+      "windows"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q036",
+    "query": "no-code app builder for marketplace",
+    "category": "developer",
+    "expected_constraints": [
+      "no_code"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q037",
+    "query": "create website from figma without coding",
+    "category": "developer",
+    "expected_constraints": [
+      "no_code",
+      "figma"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q038",
+    "query": "build internal tools no code",
+    "category": "developer",
+    "expected_constraints": [
+      "no_code"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q039",
+    "query": "no code backend database",
+    "category": "developer",
+    "expected_constraints": [
+      "no_code"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q040",
+    "query": "zapier alternative no code",
+    "category": "automation",
+    "expected_constraints": [
+      "no_code"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q041",
+    "query": "free open source CRM that runs on linux and has an android app",
+    "category": "business",
+    "expected_constraints": [
+      "free",
+      "open_source",
+      "linux",
+      "android"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q042",
+    "query": "AI text to speech that supports Polish language, is free, and has API",
+    "category": "audio",
+    "expected_constraints": [
+      "polish",
+      "free",
+      "api"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q043",
+    "query": "cheap VPS under $5 per month located in Europe with DDoS protection",
+    "category": "developer",
+    "expected_constraints": [
+      "cheap",
+      "europe",
+      "ddos"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q044",
+    "query": "video meeting tool with end-to-end encryption, max 50 users, free plan",
+    "category": "productivity",
+    "expected_constraints": [
+      "e2ee",
+      "50_users",
+      "free"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q045",
+    "query": "accounting software for UK with VAT support, multi-currency, and stripe integration",
+    "category": "finance",
+    "expected_constraints": [
+      "uk",
+      "vat",
+      "multi_currency",
+      "stripe"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q046",
+    "query": "good looking aesthetic to do list app",
+    "category": "productivity",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q047",
+    "query": "minimalist text editor for writing",
+    "category": "productivity",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q048",
+    "query": "easy to use video editor that looks nice",
+    "category": "video",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q049",
+    "query": "fast and lightweight web browser",
+    "category": "productivity",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q050",
+    "query": "modern alternative to jira",
+    "category": "business",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q051",
+    "query": "make things happen automatically",
+    "category": "automation",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q052",
+    "query": "app to manage my life",
+    "category": "productivity",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q053",
+    "query": "AI tool for stuff",
+    "category": "unknown",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q054",
+    "query": "better than photoshop",
+    "category": "image",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q055",
+    "query": "code faster",
+    "category": "developer",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q056",
+    "query": "is there any AI tool that creates full feature films automatically from a single prompt",
+    "category": "video",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q057",
+    "query": "Does Lumen5 Is this a real tool named Lumen5??",
+    "category": "unknown",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q058",
+    "query": "free tool that generates infinite money",
+    "category": "finance",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q059",
+    "query": "AI that can read my mind and write code",
+    "category": "developer",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q060",
+    "query": "XYZFakishToolThatDoesNotExist123",
+    "category": "unknown",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q061",
+    "query": "Is ChatGPT Plus $20 or $25?",
+    "category": "productivity",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q062",
+    "query": "Does Midjourney have a free trial right now?",
+    "category": "image",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q063",
+    "query": "Can you use Claude 3 Opus for free?",
+    "category": "developer",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q064",
+    "query": "Zapier vs Make for simple automations",
+    "category": "automation",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q065",
+    "query": "Is Vercel completely free for commercial use?",
+    "category": "developer",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q066",
+    "query": "Does InShot Is this a real tool named InShot??",
+    "category": "video",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q067",
+    "query": "Does Adobe Premiere Rush Is this a real tool named Adobe Premiere Rush??",
+    "category": "video",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q068",
+    "query": "latest 2026 AI tools for video",
+    "category": "video",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q069",
+    "query": "who acquired figma in 2026",
+    "category": "business",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q070",
+    "query": "current pricing of X Premium",
+    "category": "social",
+    "expected_constraints": [],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q071",
+    "query": "AI voice cloner that works with just 5 seconds of audio",
+    "category": "audio",
+    "expected_constraints": [
+      "clone",
+      "5_seconds"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q072",
+    "query": "tool to schedule twitter threads for free",
+    "category": "marketing",
+    "expected_constraints": [
+      "twitter",
+      "free"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q073",
+    "query": "open source game engine for 2d pixel art",
+    "category": "developer",
+    "expected_constraints": [
+      "open_source",
+      "2d"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q074",
+    "query": "finance app that connects to European banks via open banking",
+    "category": "finance",
+    "expected_constraints": [
+      "europe",
+      "open_banking"
+    ],
+    "notes": "Generated test query"
+  },
+  {
+    "id": "q075",
+    "query": "CRM that integrates with WhatsApp business API",
+    "category": "business",
+    "expected_constraints": [
+      "whatsapp"
+    ],
+    "notes": "Generated test query"
+  }
+]

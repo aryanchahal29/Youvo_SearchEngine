@@ -1,0 +1,579 @@
+﻿Γùç injected env (20) from .env.local // tip: Γîÿ override existing { override: true }
+
+--- 2. DATABASE SEARCH ---
+Cache state before: [{"id":"a0cc048c-c5dd-4067-bf46-73d721c03976","normalized_query":"tool for vibe coding","intent":null,"category":null,"constraints":null,"result_tool_ids":[],"result_data":{"candidate_count":0},"created_at":"2026-08-13T13:00:50.421559+00:00","expires_at":"2026-08-13T13:05:49.938+00:00","hit_count":0,"cache_state":"PROVIDER_FAILURE"}]
+Cache cleared.
+
+--- EXECUTING API REQUEST ---
+[Router] Registered gemini:proj-proj-1 (gemini-flash-latest) - Enabled: false
+[Router] Registered gemini:proj-proj-2 (gemini-flash-latest) - Enabled: false
+[Router] Registered gemini:proj-proj-3 (gemini-flash-latest) - Enabled: false
+[Router] Registered groq:default-1 (llama-3.3-70b-versatile) - Enabled: true
+[Router] TASK: intent | PROV: groq:default-1 | STATUS: success | LATENCY: 612ms | RETRIES: 0
+[HybridSearch] Cache MISS for "tool for vibe coding"
+node.exe : Semantic search failed, continuing with text results: AllProvidersUnavailableError: No eligible providers 
+available for task: embedding
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Semantic search...task: embedding:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at AIProviderRouter.executeWithRouting (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\router.ts:255:13)
+    at AIProviderRouter.generateEmbedding (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\router.ts:371:35)
+    at semanticSearch (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\search\hybrid-search.ts:312:34)
+    at hybridSearch (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\search\hybrid-search.ts:96:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async GET (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\src\app\api\search\route.ts:24:27)
+    at async run (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\scripts\trace-vibe.ts:75:15)
+[HybridSearch] Live discovery triggered. Reason: zero_candidates
+[GeminiSearch] Searching for: "tool for vibe coding" (limit 10)
+[SearchProvider] All web discovery providers unavailable.
+[Orchestrator] Provider GeminiSearch failed: AllProvidersUnavailableError: No eligible providers available for task: 
+web_discovery
+    at AIProviderRouter.executeWithRouting (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\router.ts:255:13)
+    at AIProviderRouter.generateText (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\router.ts:345:35)
+    at RoutedSearchProvider.search (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\search-provider.ts:59:33)
+    at GeminiSearchAdapter.discoverForQuery (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\search-adapter.ts:36:44)
+    at <anonymous> (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:234:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.allSettled (index 0)
+    at async LiveDiscoveryOrchestrator.discoverCandidates (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:199:21)
+    at async LiveDiscoveryOrchestrator.discoverInline (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:100:28)
+    at async hybridSearch (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\search\hybrid-search.ts:154:29)
+[TavilySearch] Searching Tavily for: "tool for vibe coding" (limit 10)
+
+--- 3. LIVE DISCOVERY: TAVILY CANDIDATES ---
+Count: 10
+- The 6 Best Vibe Coding Tools in 2026 (https://zapier.com/blog/best-vibe-coding-tools)
+- 8 Best Vibe Coding Tools in 2026: Tested and Ranked (https://www.zite.com/blog/best-vibe-coding-tools)
+- What's your go-to vibe coding tool and suggest the best? (https://www.reddit.com/r/vibecoding/comments/1nnrvp1/whats_your_goto_vibe_coding_tool_and_suggest_the)
+- Medium (https://medium.com/madhukarkumar/a-comprehensive-guide-to-vibe-coding-tools-2bd35e2d7b4f)
+- I Tested 5 Vibe Coding Tools So You Don't Have To (https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324)
+- I Tested The Top 3 AIs for Vibe Coding (Shocking Winner) (https://www.youtube.com/watch?v=277l16eJphI)
+- I tried every vibe-coding tool so you don't have to (https://www.xda-developers.com/tried-every-vibe-coding-tool-so-you-dont-have-to-one-clear-winner)
+- Vibe Coding | Google AI Studio (https://aistudio.google.com/vibe-code)
+- What's the current best and simplest vibe coding stack? ... (https://www.reddit.com/r/ChatGPTCoding/comments/1k5g89v/whats_the_current_best_and_simplest_vibe_coding)
+- 10 Vibe Coding Tools For Faster Prototyping | Figma (https://www.figma.com/resource-library/vibe-coding-tools)
+[URL] Resolved: https://medium.com/madhukarkumar/a-comprehensive-guide-to-vibe-coding-tools-2bd35e2d7b4f -> https://medium.com/madhukarkumar/a-comprehensive-guide-to-vibe-coding-tools-2bd35e2d7b4f
+[URL] Resolved: https://www.reddit.com/r/vibecoding/comments/1nnrvp1/whats_your_goto_vibe_coding_tool_and_suggest_the -> https://www.reddit.com/r/vibecoding/comments/1nnrvp1/whats_your_goto_vibe_coding_tool_and_suggest_the/
+[URL] Resolved: https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324 -> https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324
+[URL] Resolved: https://www.zite.com/blog/best-vibe-coding-tools -> https://www.zite.com/blog/best-vibe-coding-tools
+[URL] Resolved: https://www.youtube.com/watch?v=277l16eJphI -> https://www.youtube.com/watch?v=277l16eJphI
+[URL] Resolved: https://zapier.com/blog/best-vibe-coding-tools -> https://zapier.com/blog/best-vibe-coding-tools/
+[URL] Resolved: https://www.figma.com/resource-library/vibe-coding-tools -> https://www.figma.com/resource-library/vibe-coding-tools/
+[URL] Resolved: https://www.xda-developers.com/tried-every-vibe-coding-tool-so-you-dont-have-to-one-clear-winner -> https://www.xda-developers.com/tried-every-vibe-coding-tool-so-you-dont-have-to-one-clear-winner/
+[URL] Resolved: https://aistudio.google.com/vibe-code -> https://aistudio.google.com/vibe-code
+[CRAWL] Success: https://www.reddit.com/r/vibecoding/comments/1nnrvp1/whats_your_goto_vibe_coding_tool_and_suggest_the/
+[CRAWL] Success: https://www.zite.com/blog/best-vibe-coding-tools
+[Router] TASK: extraction | PROV: groq:default-1 | STATUS: invalid_request | ERROR: 413 {"error":{"message":"Request 
+too large for model `llama-3.3-70b-versatile` in organization `org_01kv7rzf4kf2bae0jmgcyqp5fk` service tier 
+`on_demand` on tokens per minute (TPM): Limit 12000, Requested 13405, please reduce your message size and try again. 
+Need more tokens? Upgrade to Dev Tier today at 
+https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+[FactExtractor] Extraction failed for https://www.zite.com/blog/best-vibe-coding-tools: ProviderInvalidRequestError: 
+413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization 
+`org_01kv7rzf4kf2bae0jmgcyqp5fk` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 13405, 
+please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at 
+https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+    at GroqProvider.handleError (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\groq.ts:62:15)
+[EXTRACTION] Success: https://www.zite.com/blog/best-vibe-coding-tools
+   Free plan: no/unknown
+   Watermark: no/unknown
+    at GroqProvider.generateStructuredOutput (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\groq.ts:133:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AIProviderRouter.executeWithRouting (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\router.ts:263:24)
+    at async AIProviderRouter.generateStructuredOutput (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\providers\router.ts:362:24)
+    at async FactExtractor.extractToolData (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\extraction\fact-extractor.ts:110:22)
+    at async FactExtractor.import_fact_extractor.FactExtractor.extractToolData (C:\Users\Aryan 
+Kumar\OneDrive\Documents\YouVo seach engine\youvo\scripts\trace-vibe.ts:52:17)
+    at async <anonymous> (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:362:31)
+    at async Promise.allSettled (index 1)
+    at async LiveDiscoveryOrchestrator.crawlAndExtract (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:351:28)
+[Router] TASK: extraction | PROV: groq:default-1 | STATUS: success | LATENCY: 473ms | RETRIES: 0
+[EXTRACTION] Success: https://www.reddit.com/r/vibecoding/comments/1nnrvp1/whats_your_goto_vibe_coding_tool_and_suggest_the/
+   Free plan: no/unknown
+   Watermark: no/unknown
+[CRAWL] Fail: https://zapier.com/blog/best-vibe-coding-tools/ (This operation was aborted)
+[Orchestrator] Crawl/extract failed for https://zapier.com/blog/best-vibe-coding-tools/: [DOMException [AbortError]: 
+This operation was aborted]
+[CRAWL] Fail: https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324 (fetch failed)
+[Orchestrator] Crawl/extract failed for 
+https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324: [TypeError: fetch failed] {
+  [cause]: AggregateError [ENETUNREACH]: 
+      at internalConnectMultiple (node:net:1142:49)
+      at afterConnectMultiple (node:net:1723:7) {
+    code: 'ENETUNREACH',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+[CRAWL] Fail: https://medium.com/madhukarkumar/a-comprehensive-guide-to-vibe-coding-tools-2bd35e2d7b4f (fetch failed)
+[Orchestrator] Crawl/extract failed for 
+https://medium.com/madhukarkumar/a-comprehensive-guide-to-vibe-coding-tools-2bd35e2d7b4f: [TypeError: fetch failed] {
+  [cause]: AggregateError [ENETUNREACH]: 
+      at internalConnectMultiple (node:net:1142:49)
+      at afterConnectMultiple (node:net:1723:7) {
+    code: 'ENETUNREACH',
+    [errors]: [ [Error], [Error], [Error], [Error] ]
+  }
+}
+[Orchestrator] Rejected 8 Best Vibe Coding Tools in 2026: Tested and Ranked: confidence 0 < 25
+[Orchestrator] Rejected What's your go-to vibe coding tool and suggest the best?: confidence 0 < 25
+[Orchestrator] Failed to create async job: Error: Failed to enqueue job: TypeError: fetch failed
+    at JobQueue.enqueue (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\src\lib\jobs\queue.ts:48:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async LiveDiscoveryOrchestrator.createAsyncJob (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:691:19)
+    at async LiveDiscoveryOrchestrator.discoverInline (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\discovery\live-discovery-orchestrator.ts:137:19)
+    at async hybridSearch (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\src\lib\search\hybrid-search.ts:154:29)
+    at async GET (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\src\app\api\search\route.ts:24:27)
+    at async run (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\scripts\trace-vibe.ts:75:15)
+[HybridSearch] Discovery metrics: {
+  "query": "tool for vibe coding",
+  "db_candidates": 0,
+  "eligible_db_candidates": 0,
+  "live_discovery": true,
+  "providers_attempted": [
+    "GeminiSearch",
+    "BraveSearch",
+    "TavilySearch"
+  ],
+  "providers_succeeded": [
+    "TavilySearch"
+  ],
+  "providers_partial": [],
+  "providers_rate_limited": [
+    "GeminiSearch"
+  ],
+  "providers_disabled": [],
+  "providers_unconfigured": [
+    "BraveSearch"
+  ],
+  "providers_failed": [],
+  "providers_timed_out": [],
+  "discovered": 10,
+  "deduplicated": 1,
+  "official_sites_resolved": 9,
+  "crawl_succeeded": 2,
+  "crawl_failed": 3,
+  "facts_extracted": 2,
+  "evidence_created": 0,
+  "verified": 0,
+  "rejected": 2,
+  "eligible": 0,
+  "recommended": 0,
+  "duration_ms": 65861,
+  "errors": [
+    "GeminiSearch: Rate Limited / Unavailable"
+  ]
+}
+[HybridSearch] Saving cache for "tool for vibe coding" with state: PROVIDER_FAILURE
+Search API Error: Error: `cookies` was called outside a request scope. Read more: 
+https://nextjs.org/docs/messages/next-dynamic-api-wrong-context
+    at throwForMissingRequestStore (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\node_modules\next\src\server\app-render\work-unit-async-storage.external.ts:447:9)
+    at cookies (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach 
+engine\youvo\node_modules\next\src\server\request\cookies.ts:155:30)
+    at createClient (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\src\lib\supabase\server.ts:7:29)
+    at GET (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\src\app\api\search\route.ts:30:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async run (C:\Users\Aryan Kumar\OneDrive\Documents\YouVo seach engine\youvo\scripts\trace-vibe.ts:75:15)
+
+--- 6. EXACT API RESPONSE ---
+{
+  "error": "An error occurred while processing your search"
+}
+
+--- 7. DATABASE STATE ---
+search_cache row: []
+automation_jobs row(s): [
+  {
+    "id": "827b1f08-171f-4e5e-8aa0-2527d873927b",
+    "job_type": "discover",
+    "status": "pending",
+    "priority": 8,
+    "payload": {
+      "query": "test",
+      "intent": "find_tool",
+      "source": "live_discovery",
+      "category": null,
+      "raw_query": "test",
+      "constraints": {
+        "budget": null,
+        "no_code": null,
+        "watermark": null,
+        "api_access": null,
+        "open_source": null,
+        "skill_level": null,
+        "has_free_plan": null,
+        "commercial_use": null,
+        "has_free_trial": null
+      },
+      "metrics_snapshot": {
+        "query": "test",
+        "errors": [
+          "GeminiSearch: Rate Limited / Unavailable"
+        ],
+        "eligible": 0,
+        "rejected": 0,
+        "verified": 0,
+        "discovered": 10,
+        "duration_ms": 10237,
+        "recommended": 0,
+        "crawl_failed": 0,
+        "deduplicated": 0,
+        "db_candidates": 0,
+        "live_discovery": true,
+        "crawl_succeeded": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "providers_failed": [],
+        "providers_partial": [],
+        "providers_disabled": [],
+        "providers_attempted": [
+          "GeminiSearch",
+          "BraveSearch",
+          "TavilySearch"
+        ],
+        "providers_succeeded": [
+          "TavilySearch"
+        ],
+        "providers_timed_out": [],
+        "eligible_db_candidates": 0,
+        "providers_rate_limited": [
+          "GeminiSearch"
+        ],
+        "providers_unconfigured": [
+          "BraveSearch"
+        ],
+        "official_sites_resolved": 10
+      }
+    },
+    "result": null,
+    "attempt_count": 0,
+    "max_attempts": 3,
+    "scheduled_at": "2026-08-12T19:57:50.995722+00:00",
+    "started_at": null,
+    "completed_at": null,
+    "next_retry_at": null,
+    "error": null,
+    "created_at": "2026-08-12T19:57:50.995722+00:00",
+    "locked_by": null,
+    "lease_expires_at": null,
+    "heartbeat_at": null,
+    "idempotency_key": "discover:test"
+  },
+  {
+    "id": "396d7272-55a5-4d71-ac3a-6c220e3368a3",
+    "job_type": "discover",
+    "status": "pending",
+    "priority": 8,
+    "payload": {
+      "query": "midjourney",
+      "intent": "find_tool",
+      "source": "live_discovery",
+      "category": null,
+      "raw_query": "Midjourney",
+      "constraints": {
+        "budget": null,
+        "no_code": null,
+        "watermark": null,
+        "api_access": null,
+        "open_source": null,
+        "skill_level": null,
+        "has_free_plan": null,
+        "commercial_use": null,
+        "has_free_trial": null
+      },
+      "metrics_snapshot": {
+        "query": "midjourney",
+        "errors": [
+          "WebSearch: Rate Limited / Unavailable"
+        ],
+        "eligible": 0,
+        "rejected": 5,
+        "verified": 0,
+        "discovered": 10,
+        "duration_ms": 9099,
+        "recommended": 0,
+        "crawl_failed": 0,
+        "deduplicated": 5,
+        "db_candidates": 0,
+        "live_discovery": true,
+        "sources_failed": [],
+        "crawl_succeeded": 5,
+        "facts_extracted": 5,
+        "evidence_created": 0,
+        "sources_disabled": [
+          "ProductHunt"
+        ],
+        "sources_attempted": [
+          "WebSearch",
+          "ProductHunt",
+          "GitHub"
+        ],
+        "sources_succeeded": [
+          "GitHub"
+        ],
+        "sources_rate_limited": [
+          "WebSearch"
+        ],
+        "eligible_db_candidates": 0,
+        "official_sites_resolved": 5
+      }
+    },
+    "result": null,
+    "attempt_count": 0,
+    "max_attempts": 3,
+    "scheduled_at": "2026-08-12T17:01:38.427456+00:00",
+    "started_at": null,
+    "completed_at": null,
+    "next_retry_at": null,
+    "error": null,
+    "created_at": "2026-08-12T17:01:38.427456+00:00",
+    "locked_by": null,
+    "lease_expires_at": null,
+    "heartbeat_at": null,
+    "idempotency_key": "discover:midjourney"
+  },
+  {
+    "id": "c957d14f-c3df-4a6b-ab75-59627cd97cb2",
+    "job_type": "discover",
+    "status": "pending",
+    "priority": 8,
+    "payload": {
+      "query": "chatgpt",
+      "intent": "find_tool",
+      "source": "live_discovery",
+      "category": null,
+      "raw_query": "ChatGPT",
+      "constraints": {
+        "budget": null,
+        "no_code": null,
+        "watermark": null,
+        "api_access": null,
+        "open_source": null,
+        "skill_level": null,
+        "has_free_plan": null,
+        "commercial_use": null,
+        "has_free_trial": null
+      },
+      "metrics_snapshot": {
+        "query": "chatgpt",
+        "errors": [
+          "WebSearch: Rate Limited / Unavailable"
+        ],
+        "eligible": 0,
+        "rejected": 0,
+        "verified": 0,
+        "discovered": 10,
+        "duration_ms": 10335,
+        "recommended": 0,
+        "crawl_failed": 0,
+        "deduplicated": 1,
+        "db_candidates": 0,
+        "live_discovery": true,
+        "sources_failed": [],
+        "crawl_succeeded": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "sources_disabled": [
+          "ProductHunt"
+        ],
+        "sources_attempted": [
+          "WebSearch",
+          "ProductHunt",
+          "GitHub"
+        ],
+        "sources_succeeded": [
+          "GitHub"
+        ],
+        "sources_rate_limited": [
+          "WebSearch"
+        ],
+        "eligible_db_candidates": 0,
+        "official_sites_resolved": 9
+      }
+    },
+    "result": null,
+    "attempt_count": 0,
+    "max_attempts": 3,
+    "scheduled_at": "2026-08-12T16:58:02.11284+00:00",
+    "started_at": null,
+    "completed_at": null,
+    "next_retry_at": null,
+    "error": null,
+    "created_at": "2026-08-12T16:58:02.11284+00:00",
+    "locked_by": null,
+    "lease_expires_at": null,
+    "heartbeat_at": null,
+    "idempotency_key": "discover:chatgpt"
+  },
+  {
+    "id": "c3dca399-101c-4e33-8fe7-b41d4edcaf70",
+    "job_type": "discover",
+    "status": "pending",
+    "priority": 8,
+    "payload": {
+      "query": "ai image generator",
+      "intent": "find_tool",
+      "source": "live_discovery",
+      "category": "ai-image-generation",
+      "raw_query": "AI image generator",
+      "constraints": {
+        "budget": null,
+        "no_code": null,
+        "watermark": null,
+        "api_access": null,
+        "open_source": null,
+        "skill_level": null,
+        "has_free_plan": null,
+        "commercial_use": null,
+        "has_free_trial": null
+      },
+      "metrics_snapshot": {
+        "query": "ai image generator",
+        "errors": [
+          "WebSearch: Rate Limited / Unavailable"
+        ],
+        "eligible": 0,
+        "rejected": 3,
+        "verified": 0,
+        "discovered": 10,
+        "duration_ms": 76801,
+        "recommended": 0,
+        "crawl_failed": 0,
+        "deduplicated": 4,
+        "db_candidates": 0,
+        "live_discovery": true,
+        "sources_failed": [],
+        "crawl_succeeded": 3,
+        "facts_extracted": 3,
+        "evidence_created": 0,
+        "sources_disabled": [
+          "ProductHunt"
+        ],
+        "sources_attempted": [
+          "WebSearch",
+          "ProductHunt",
+          "GitHub"
+        ],
+        "sources_succeeded": [
+          "GitHub"
+        ],
+        "sources_rate_limited": [
+          "WebSearch"
+        ],
+        "eligible_db_candidates": 0,
+        "official_sites_resolved": 6
+      }
+    },
+    "result": null,
+    "attempt_count": 0,
+    "max_attempts": 3,
+    "scheduled_at": "2026-08-12T16:49:37.052136+00:00",
+    "started_at": null,
+    "completed_at": null,
+    "next_retry_at": null,
+    "error": null,
+    "created_at": "2026-08-12T16:49:37.052136+00:00",
+    "locked_by": null,
+    "lease_expires_at": null,
+    "heartbeat_at": null,
+    "idempotency_key": "discover:ai-image-generator"
+  },
+  {
+    "id": "096a40c9-68c8-4c6d-bad2-69f0cdd350ed",
+    "job_type": "discover",
+    "status": "pending",
+    "priority": 8,
+    "payload": {
+      "query": "tool for vibe coding",
+      "intent": "find_tool",
+      "source": "live_discovery",
+      "category": "vibe-coding",
+      "raw_query": "Tool for vibe coding",
+      "constraints": {
+        "budget": null,
+        "no_code": null,
+        "watermark": null,
+        "api_access": null,
+        "open_source": null,
+        "skill_level": null,
+        "has_free_plan": null,
+        "commercial_use": null,
+        "has_free_trial": null
+      },
+      "metrics_snapshot": {
+        "query": "tool for vibe coding",
+        "errors": [
+          "WebSearch: Rate Limited / Unavailable"
+        ],
+        "eligible": 0,
+        "rejected": 0,
+        "verified": 0,
+        "discovered": 10,
+        "duration_ms": 11273,
+        "recommended": 0,
+        "crawl_failed": 0,
+        "deduplicated": 4,
+        "db_candidates": 0,
+        "live_discovery": true,
+        "sources_failed": [],
+        "crawl_succeeded": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "sources_disabled": [
+          "ProductHunt"
+        ],
+        "sources_attempted": [
+          "WebSearch",
+          "ProductHunt",
+          "GitHub"
+        ],
+        "sources_succeeded": [
+          "GitHub"
+        ],
+        "sources_rate_limited": [
+          "WebSearch"
+        ],
+        "eligible_db_candidates": 0,
+        "official_sites_resolved": 6
+      }
+    },
+    "result": null,
+    "attempt_count": 0,
+    "max_attempts": 3,
+    "scheduled_at": "2026-08-12T16:37:00.256517+00:00",
+    "started_at": null,
+    "completed_at": null,
+    "next_retry_at": null,
+    "error": null,
+    "created_at": "2026-08-12T16:37:00.256517+00:00",
+    "locked_by": null,
+    "lease_expires_at": null,
+    "heartbeat_at": null,
+    "idempotency_key": "discover:tool-for-vibe-coding"
+  }
+]

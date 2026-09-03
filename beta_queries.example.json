@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q001",
+    "query": "best AI video editor for beginners",
+    "category": "video",
+    "expected_constraints": ["beginner"],
+    "notes": "Broad, easy query"
+  },
+  {
+    "id": "q002",
+    "query": "free AI voice generator with commercial use",
+    "category": "audio",
+    "expected_constraints": ["free", "commercial_use"],
+    "notes": "Hard constraints"
+  },
+  {
+    "id": "q003",
+    "query": "CRM software for small business with API access",
+    "category": "business",
+    "expected_constraints": ["small_business", "api_access"],
+    "notes": "B2B productivity"
+  },
+  {
+    "id": "q004",
+    "query": "open source LLM that can run locally on Mac",
+    "category": "developer",
+    "expected_constraints": ["open_source", "local", "mac"],
+    "notes": "Developer niche"
+  },
+  {
+    "id": "q005",
+    "query": "Does Pictory AI support 4k export on the free plan?",
+    "category": "video",
+    "expected_constraints": ["free", "4k"],
+    "notes": "Highly specific verification query"
+  },
+  {
+    "id": "q006",
+    "query": "AI presentation maker no watermark",
+    "category": "productivity",
+    "expected_constraints": ["no_watermark"],
+    "notes": "Common creator request"
+  },
+  {
+    "id": "q007",
+    "query": "cheap alternatives to midjourney",
+    "category": "image",
+    "expected_constraints": ["cheap"],
+    "notes": "Alternative search"
+  },
+  {
+    "id": "q008",
+    "query": "Zapier vs Make for simple automations",
+    "category": "automation",
+    "expected_constraints": ["simple"],
+    "notes": "Comparison search"
+  },
+  {
+    "id": "q009",
+    "query": "is there any AI tool that creates full feature films automatically from a single prompt",
+    "category": "video",
+    "expected_constraints": [],
+    "notes": "Likely zero-result / impossible"
+  },
+  {
+    "id": "q010",
+    "query": "Does Lumen5 Is this a real tool named Lumen5??",
+    "category": "unknown",
+    "expected_constraints": [],
+    "notes": "Ambiguous / fallback test"
+  }
+]

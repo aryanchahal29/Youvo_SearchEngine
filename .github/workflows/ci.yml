@@ -1,0 +1,52 @@
+name: YouVo CI/CD
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+        cache-dependency-path: './youvo/package-lock.json'
+        
+    - name: Install Dependencies
+      working-directory: ./youvo
+      run: npm ci
+      
+    - name: Lint Code
+      working-directory: ./youvo
+      run: npm run lint
+      
+    - name: Typecheck
+      working-directory: ./youvo
+      run: npx tsc --noEmit
+      
+    - name: Run Tests
+      working-directory: ./youvo
+      run: npx jest
+      
+    - name: Production Preflight Check
+      working-directory: ./youvo
+      run: npm run prebuild
+      
+    - name: Production Build
+      working-directory: ./youvo
+      run: npm run build

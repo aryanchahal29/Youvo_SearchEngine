@@ -1,0 +1,1818 @@
+{
+  "metrics": {
+    "total": 21,
+    "successCount": 0,
+    "unsupportedIntentCount": 0,
+    "noMatchCount": 21,
+    "failureCount": 0,
+    "p50_latency_ms": 1051,
+    "p95_latency_ms": 6471,
+    "avg_latency_ms": 1859.1904761904761
+  },
+  "results": [
+    {
+      "query": "best AI video editor for beginners",
+      "processed_query": {
+        "raw_query": "best AI video editor for beginners",
+        "corrected_query": "best ai video editor for beginners",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": "beginner",
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "hinglish",
+        "search_terms": [
+          "best",
+          "video",
+          "editor",
+          "for",
+          "beginners"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 12534,
+      "metrics": {
+        "query": "best ai video editor for beginners",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Gemini Discovery",
+          "Groq Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 10506,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "top 10 design tools in 2026",
+      "processed_query": {
+        "raw_query": "top 10 design tools in 2026",
+        "corrected_query": "top 10 design tools in 2026",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "top",
+          "design",
+          "tools",
+          "2026"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 6471,
+      "metrics": {
+        "query": "top 10 design tools in 2026",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Gemini Discovery",
+          "Groq Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 5222,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "what is the best open source crm",
+      "processed_query": {
+        "raw_query": "what is the best open source crm",
+        "corrected_query": "what is the best open source crm",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": true,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "hinglish",
+        "search_terms": [
+          "what",
+          "the",
+          "best",
+          "open",
+          "source",
+          "crm"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1307,
+      "metrics": {
+        "query": "what is the best open source crm",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 645,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "tools like zapier",
+      "processed_query": {
+        "raw_query": "tools like zapier",
+        "corrected_query": "tools like zapier",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": true,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "tools",
+          "like",
+          "zapier"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 971,
+      "metrics": {
+        "query": "tools like zapier",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 728,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "alternative to photoshop",
+      "processed_query": {
+        "raw_query": "alternative to photoshop",
+        "corrected_query": "alternative to photoshop",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "alternative",
+          "photoshop"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 986,
+      "metrics": {
+        "query": "alternative to photoshop",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 632,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "Does Lumen5 Is this a real tool named Lumen5??",
+      "processed_query": {
+        "raw_query": "Does Lumen5 Is this a real tool named Lumen5??",
+        "corrected_query": "does lumen5 is this a real tool named lumen5??",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "does",
+          "lumen5",
+          "this",
+          "real",
+          "tool",
+          "named",
+          "lumen5??"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 977,
+      "metrics": {
+        "query": "does lumen5 is this a real tool named lumen5??",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 667,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "Zapier vs Make for simple automations",
+      "processed_query": {
+        "raw_query": "Zapier vs Make for simple automations",
+        "corrected_query": "zapier vs make for simple automations",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": "beginner",
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": true,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "zapier",
+          "make",
+          "for",
+          "simple",
+          "automations"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1051,
+      "metrics": {
+        "query": "zapier vs make for simple automations",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 590,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "who acquired figma in 2026",
+      "processed_query": {
+        "raw_query": "who acquired figma in 2026",
+        "corrected_query": "who acquired figma in 2026",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "who",
+          "acquired",
+          "figma",
+          "2026"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1029,
+      "metrics": {
+        "query": "who acquired figma in 2026",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 639,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "current pricing of X Premium",
+      "processed_query": {
+        "raw_query": "current pricing of X Premium",
+        "corrected_query": "current pricing of x premium",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "current",
+          "pricing",
+          "premium"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 883,
+      "metrics": {
+        "query": "current pricing of x premium",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 629,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "is there any AI tool that creates full feature films automatically from a single prompt",
+      "processed_query": {
+        "raw_query": "is there any AI tool that creates full feature films automatically from a single prompt",
+        "corrected_query": "is there any ai tool that creates full feature films automatically from a single prompt",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": "advanced",
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "there",
+          "any",
+          "tool",
+          "that",
+          "creates",
+          "full",
+          "feature",
+          "films",
+          "automatically",
+          "from",
+          "single",
+          "prompt"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 961,
+      "metrics": {
+        "query": "is there any ai tool that creates full feature films automatically from a single prompt",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 678,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "make things happen automatically",
+      "processed_query": {
+        "raw_query": "make things happen automatically",
+        "corrected_query": "make things happen automatically",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "make",
+          "things",
+          "happen",
+          "automatically"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1137,
+      "metrics": {
+        "query": "make things happen automatically",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 709,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "how to edit a video on a mac",
+      "processed_query": {
+        "raw_query": "how to edit a video on a mac",
+        "corrected_query": "how to edit a video on a mac",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "how",
+          "edit",
+          "video",
+          "mac"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 979,
+      "metrics": {
+        "query": "how to edit a video on a mac",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 723,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "free tool that generates infinite money",
+      "processed_query": {
+        "raw_query": "free tool that generates infinite money",
+        "corrected_query": "free tool that generates infinite money",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": "free",
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": true,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "free",
+          "tool",
+          "that",
+          "generates",
+          "infinite",
+          "money"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1071,
+      "metrics": {
+        "query": "free tool that generates infinite money",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 764,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "Can you use Claude 3 Opus for free?",
+      "processed_query": {
+        "raw_query": "Can you use Claude 3 Opus for free?",
+        "corrected_query": "can you use claude 3 opus for free?",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": "free",
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": true,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "can",
+          "you",
+          "use",
+          "claude",
+          "opus",
+          "for",
+          "free?"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1122,
+      "metrics": {
+        "query": "can you use claude 3 opus for free?",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 622,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "open source game engine for 2d pixel art",
+      "processed_query": {
+        "raw_query": "open source game engine for 2d pixel art",
+        "corrected_query": "open source game engine for 2d pixel art",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": true,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "open",
+          "source",
+          "game",
+          "engine",
+          "for",
+          "pixel",
+          "art"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1049,
+      "metrics": {
+        "query": "open source game engine for 2d pixel art",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 802,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "finance app that connects to European banks via open banking",
+      "processed_query": {
+        "raw_query": "finance app that connects to European banks via open banking",
+        "corrected_query": "finance app that connects to european banks via open banking",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "finance",
+          "app",
+          "that",
+          "connects",
+          "european",
+          "banks",
+          "via",
+          "open",
+          "banking"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1061,
+      "metrics": {
+        "query": "finance app that connects to european banks via open banking",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 756,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "free open source CRM that runs on linux and has an android app",
+      "processed_query": {
+        "raw_query": "free open source CRM that runs on linux and has an android app",
+        "corrected_query": "free open source crm that runs on linux and has an android app",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": "free",
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": true,
+          "has_free_plan": true,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "free",
+          "open",
+          "source",
+          "crm",
+          "that",
+          "runs",
+          "linux",
+          "and",
+          "has",
+          "android",
+          "app"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1120,
+      "metrics": {
+        "query": "free open source crm that runs on linux and has an android app",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 865,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "accounting software for UK with VAT support, multi-currency, and stripe integration",
+      "processed_query": {
+        "raw_query": "accounting software for UK with VAT support, multi-currency, and stripe integration",
+        "corrected_query": "accounting software for uk with vat support, multi-currency, and stripe integration",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "accounting",
+          "software",
+          "for",
+          "with",
+          "vat",
+          "support,",
+          "multi-currency,",
+          "and",
+          "stripe",
+          "integration"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1071,
+      "metrics": {
+        "query": "accounting software for uk with vat support, multi-currency, and stripe integration",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 830,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "CRM that integrates with WhatsApp business API",
+      "processed_query": {
+        "raw_query": "CRM that integrates with WhatsApp business API",
+        "corrected_query": "crm that integrates with whatsapp business api",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": true,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "crm",
+          "that",
+          "integrates",
+          "with",
+          "whatsapp",
+          "business",
+          "api"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 966,
+      "metrics": {
+        "query": "crm that integrates with whatsapp business api",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 616,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "XYZFakishToolThatDoesNotExist123",
+      "processed_query": {
+        "raw_query": "XYZFakishToolThatDoesNotExist123",
+        "corrected_query": "xyzfakishtoolthatdoesnotexist123",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "xyzfakishtoolthatdoesnotexist123"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1249,
+      "metrics": {
+        "query": "xyzfakishtoolthatdoesnotexist123",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 817,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    },
+    {
+      "query": "AI that can read my mind and write code",
+      "processed_query": {
+        "raw_query": "AI that can read my mind and write code",
+        "corrected_query": "ai that can read my mind and write code",
+        "was_corrected": false,
+        "intent": {
+          "type": "find_tool",
+          "confidence": 0.5
+        },
+        "category": null,
+        "constraints": {
+          "budget": null,
+          "skill_level": null,
+          "watermark": null,
+          "commercial_use": null,
+          "no_code": null,
+          "api_access": null,
+          "open_source": null,
+          "has_free_plan": null,
+          "has_free_trial": null
+        },
+        "priorities": [],
+        "language": "english",
+        "search_terms": [
+          "that",
+          "can",
+          "read",
+          "mind",
+          "and",
+          "write",
+          "code"
+        ],
+        "target_entity": null
+      },
+      "status": "NO_MATCHES",
+      "latency_ms": 1048,
+      "metrics": {
+        "query": "ai that can read my mind and write code",
+        "db_candidates": 0,
+        "eligible_db_candidates": 0,
+        "live_discovery": true,
+        "providers_attempted": [
+          "Gemini Discovery",
+          "Groq Discovery",
+          "Gemini Flash Discovery"
+        ],
+        "providers_succeeded": [],
+        "providers_partial": [],
+        "providers_rate_limited": [
+          "Gemini Flash Discovery"
+        ],
+        "providers_disabled": [],
+        "providers_unconfigured": [],
+        "providers_failed": [
+          "Groq Discovery",
+          "Gemini Discovery"
+        ],
+        "providers_timed_out": [],
+        "providers_cancelled": [],
+        "search_results_received": 0,
+        "tool_entities_extracted": 0,
+        "discovered": 0,
+        "deduplicated": 0,
+        "official_sites_resolved": 0,
+        "crawl_succeeded": 0,
+        "crawl_failed": 0,
+        "facts_extracted": 0,
+        "evidence_created": 0,
+        "verified": 0,
+        "rejected": 0,
+        "eligible": 0,
+        "recommended": 0,
+        "duration_ms": 793,
+        "errors": [
+          "Gemini Flash Discovery: Rate Limited / Unavailable",
+          "Groq Discovery: 404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+          "Gemini Discovery: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods."
+        ],
+        "ttfu_status": "NOT_AVAILABLE"
+      },
+      "ranked_results": {
+        "best_match": null,
+        "alternatives": [],
+        "explanation": "No verified tools found."
+      }
+    }
+  ]
+}
